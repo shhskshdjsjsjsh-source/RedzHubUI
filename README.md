@@ -45,18 +45,6 @@ local redzlib = {
 			["Color Theme"] = Color3.fromRGB(150, 0, 255),
 			["Color Text"] = Color3.fromRGB(240, 240, 240),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
-		},
-		White = {
-			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 10, 10)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(15, 15, 15)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 10, 10))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
-			["Color Stroke"] = Color3.fromRGB(60, 60, 60),
-			["Color Theme"] = Color3.fromRGB(255, 255, 255),
-			["Color Text"] = Color3.fromRGB(255, 255, 255),
-			["Color Dark Text"] = Color3.fromRGB(170, 170, 170)
 		}
 	},
 	Info = {
